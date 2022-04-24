@@ -1,3 +1,10 @@
+'''arr=[1,3,2,4]
+output=[3,4,4,-1]
+for 1 next largest value is 3
+for 3 next largest value is 4 
+for 2 next largest value is 4
+for 4 it was last value so -1
+'''
 class stack():
 	def __init__(self):
 		self.s=[]
