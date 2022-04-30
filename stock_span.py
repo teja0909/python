@@ -1,3 +1,9 @@
+'''No.of consecutive smaller or equal values before the no 
+input=[100 ,80 ,60 ,70 ,60 ,75,85]
+output=[1, 1, 1, 2, 1, 4, 6]
+approach find the next greater value from left to right and its index
+input array index-next greater value index=no.of smaller consecutive values
+'''
 values=[int(i) for i in input().split()]
 def greater_right(l):
 	stack=[]
